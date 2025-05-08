@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>城发成家财富中心 - 招商手册</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .highlight {
+            position: relative;
+            z-index: 1;
+        }
+        .highlight:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background-color: rgba(255, 212, 0, 0.3);
+            z-index: -1;
+            transition: height 0.3s ease;
+        }
+        .highlight:hover:after {
+            height: 20px;
+        }
+        .section-divider {
+            border: none;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0) 100%);
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- 头部区域 -->
+    <header class="text-center mb-12">
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">城发成家财富中心</h1>
+        <p class="text-xl text-gray-600">济南CBD黄金地段标杆写字楼</p>
+        <div class="mt-8">
+            <div class="inline-block px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full font-medium">
+                <i class="fas fa-map-marker-alt mr-2"></i>经十路三心交汇"黄金三角"
+            </div>
+        </div>
+    </header>
+
+    <!-- 开场白卡片 -->
+    <div class="card bg-white rounded-xl shadow-md overflow-hidden mb-8">
+        <div class="p-6 sm:p-8">
+            <div class="flex items-start">
+                <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full text-blue-600">
+                    <i class="fas fa-handshake text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">开场白</h2>
+                    <p class="text-gray-600">"您好！我是咱的招商顾问，来带您来看看咱们财富中心这个写字楼的项目。给您简单介绍一下，正好您有什么需求或者问题，咱们可以边走边说~"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 价值三部曲 -->
+    <section class="mb-12">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">项目核心价值三部曲</h2>
+        
+        <!-- 区位价值 -->
+        <div class="card bg-white rounded-xl shadow-md overflow-hidden mb-6">
+            <div class="md:flex">
+                <div class="md:w-1/3 bg-gray-100 p-6 flex items-center justify-center">
+                    <div class="text-center">
+                        <div class="inline-block bg-blue-100 p-4 rounded-full text-blue-600 mb-3">
+                            <i class="fas fa-map-marked-alt text-3xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800">区位价值</h3>
+                    </div>
+                </div>
+                <div class="md:w-2/3 p-6">
+                    <div class="mb-4">
+                        <span class="inline-block bg-blue-600 text-white text-xs px-2 py-1 rounded-full uppercase font-semibold tracking-wide">黄金三角</span>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-4 h-4 bg-blue-500 rounded-full"></div>
+                            </div>
+                            <p class="ml-3 text-gray-700">往北800米是万象城商圈，东侧紧邻龙奥政务中心，向西3公里直达奥体中心</p>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-4 h-4 bg-blue-500 rounded-full"></div>
+                            </div>
+                            <p class="ml-3 text-gray-700">济南唯一同时享有CBD商务流量、政务配套和生态居住资源的稀缺地段</p>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-4 h-4 bg-blue-500 rounded-full"></div>
+                            </div>
+                            <p class="ml-3 text-gray-700">位于"十三五"规划核心区，政商双核心区位优势</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 硬件品质 -->
+        <div class="card bg-white rounded-xl shadow-md overflow-hidden mb-6">
+            <div class="md:flex">
+                <div class="md:w-1/3 bg-gray-100 p-6 flex items-center justify-center">
+                    <div class="text-center">
+                        <div class="inline-block bg-green-100 p-4 rounded-full text-green-600 mb-3">
+                            <i class="fas fa-building text-3xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800">硬件品质</h3>
+                    </div>
+                </div>
+                <div class="md:w-2/3 p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="flex items-center mb-2">
+                                <div class="bg-green-100 p-2 rounded-full text-green-600 mr-3">
+                                    <i class="fas fa-elevator"></i>
+                                </div>
+                                <h4 class="font-medium text-gray-800">芬兰通力电梯系统</h4>
+                            </div>
+                            <p class="text-sm text-gray-600">A栋16部梯3.5米/秒极速响应，高峰期候梯不超过30秒</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="flex items-center mb-2">
+                                <div class="bg-green-100 p-2 rounded-full text-green-600 mr-3">
+                                    <i class="fas fa-wind"></i>
+                                </div>
+                                <h4 class="font-medium text-gray-800">东芝全变频中央空调</h4>
+                            </div>
+                            <p class="text-sm text-gray-600">PM2.5过滤系统可保持空气清新度超国标2倍</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="flex items-center mb-2">
+                                <div class="bg-green-100 p-2 rounded-full text-green-600 mr-3">
+                                    <i class="fas fa-ruler-combined"></i>
+                                </div>
+                                <h4 class="font-medium text-gray-800">4.2米挑高空间</h4>
+                            </div>
+                            <p class="text-sm text-gray-600">配合地暖系统，比传统写字楼节能30%以上</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="flex items-center mb-2">
+                                <div class="bg-green-100 p-2 rounded-full text-green-600 mr-3">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+                                <h4 class="font-medium text-gray-800">基础设施</h4>
+                            </div>
+                            <p class="text-sm text-gray-600">635个智能车位和三大运营商双路由光纤</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 服务承诺 -->
+        <div class="card bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="md:flex">
+                <div class="md:w-1/3 bg-gray-100 p-6 flex items-center justify-center">
+                    <div class="text-center">
+                        <div class="inline-block bg-purple-100 p-4 rounded-full text-purple-600 mb-3">
+                            <i class="fas fa-concierge-bell text-3xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800">服务兑现承诺</h3>
+                    </div>
+                </div>
+                <div class="md:w-2/3 p-6">
+                    <div class="mb-4">
+                        <span class="inline-block bg-purple-600 text-white text-xs px-2 py-1 rounded-full uppercase font-semibold tracking-wide">全包物业费12元/㎡</span>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-purple-50 p-4 rounded-lg">
+                            <h4 class="font-medium text-purple-800 mb-2">企业成长配套</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+                                    <span>B3层3000㎡员工餐厅支持定制餐标</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+                                    <span>配套24h便利店、美容、服装、健身房等一线商业品牌</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+                                    <span>是济南甲级写字楼中唯一采用地暖制热方式的项目</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bg-purple-50 p-4 rounded-lg">
+                            <h4 class="font-medium text-purple-800 mb-2">5A级物业服务</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+                                    <span>保洁2分钟到层</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+                                    <span>工程报修15分钟上门</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- 需求引导 -->
+    <section class="mb-12">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">询问引导客户需求</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- 面积试探 -->
+            <div class="card bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-yellow-100 p-3 rounded-full text-yellow-600 mr-4">
+                            <i class="fas fa-expand text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800">面积试探</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">"目前A栋，标准面积480㎡，但是户型大小从60.92-739㎡左右都可以灵活组合。您理想的办公面积是多大呀？对楼层层高之类的有要求吗？"</p>
+
+                    <div class="bg-yellow-50 p-3 rounded-lg">
+                        <h4 class="font-medium text-yellow-800 mb-1">可租面积选项</h4>
+                        <ul class="text-sm text-gray-700">
+                            <li class="flex items-start py-1">
+                                <i class="fas fa-th-large text-yellow-500 mt-1 mr-2"></i>
+                                <span>小户型：60.92、95.43、120.42、159.24、162.84、201.13、239.77、266.98、312.68、316.50、349.54、364.11㎡</span>
+                            </li>
+                            <li class="flex items-start py-1">
+                                <i class="fas fa-th-large text-yellow-500 mt-1 mr-2"></i>
+                                <span>大户型：465.75、465.94、473.73、474.18、480.30、480.75、480.92、514.22、520.21、548.08、657.39、666.88、730.74、739.00㎡</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 成本关切 -->
+            <div class="card bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-100 p-3 rounded-full text-green-600 mr-4">
+                            <i class="fas fa-coins text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800">成本关切</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">"我们针对不同面积有阶梯式免租政策：比如1000㎡以上可享3个月装修期，这期间仅需承担基础物业费。"</p>
+                    <div class="bg-green-50 p-3 rounded-lg">
+                        <h4 class="font-medium text-green-800 mb-1">付款方案</h4>
+                        <ul class="text-sm text-gray-700">
+                            <li class="flex items-start py-1">
+                                <i class="fas fa-file-invoice-dollar text-green-500 mt-1 mr-2"></i>
+                                <span>付款方式：押一付六、押二付三</span>
+                            </li>
+                            <li class="flex items-start py-1">
+                                <i class="fas fa-file-invoice-dollar text-green-500 mt-1 mr-2"></i>
+                                <span>免租期：1000㎡以下2个月免租期，1000㎡-5000㎡3个月免租期，5000㎡-10000 ㎡4-5个月免租期，10000㎡以上6个月免租期</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 决策铺垫 -->
+            <div class="card bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-full text-blue-600 mr-4">
+                            <i class="fas fa-clipboard-check text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800">顾虑解决</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">"有问题就解决问题，可以帮着规划一下区域，分分办公室、会议室、档案室、仓库之类的，解决不了的说这个得回去请示一下领导、需要和领导申请一下、问问领导的意见，能定下来的话尽早给答复（有些可以去看常见问题解答）。"</p>
+                    <div class="bg-blue-50 p-3 rounded-lg">
+                        <h4 class="font-medium text-blue-800 mb-1">客户决策因素</h4>
+                        <ul class="text-sm text-gray-700">
+                            <li class="flex items-start py-1">
+                                <i class="fas fa-subway text-blue-500 mt-1 mr-2"></i>
+                                <span>交通便利性</span>
+                            </li>
+                            <li class="flex items-start py-1">
+                                <i class="fas fa-chess-queen text-blue-500 mt-1 mr-2"></i>
+                                <span>高端形象展示</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- 收尾动作 -->
+    <section class="mb-12">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">专业收尾动作</h2>
+        
+        <div class="card bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="p-6 sm:p-8">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/3 mb-6 md:mb-0 flex justify-center">
+                        <div class="bg-blue-100 p-6 rounded-full text-blue-600">
+                            <i class="fas fa-hand-holding-usd text-4xl"></i>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3">
+                        <div class="mb-6">
+                            <h3 class="text-lg font-bold text-gray-800 mb-3">标准收尾话术</h3>
+                            <p class="text-gray-600">"您肯定要回去和集团商量，考虑一下，有问题随时微信联系我就行，稍后我把今天参观的各户型平面图及相关资料发送给您参考。您商量好之后也尽早给我个答复，我也回去和领导汇报（商量）一下（之前提到的xx需求），能给您申请的肯定申请下来。"</p>
+                        </div>
+                        
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h3 class="text-lg font-bold text-gray-800 mb-3">中介专属补充</h3>
+                            <p class="text-gray-600">"您带客户来看，咱们可以先签一个《带看确认单》，如果这个项目能成交的话，佣金是30天的租金，然后咱们再签整个项目的招商代理合同。"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 总结卡片 -->
+    <div class="card bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl shadow-xl overflow-hidden mb-8">
+        <div class="p-6 sm:p-8 text-white">
+            <h2 class="text-xl sm:text-2xl font-bold mb-4">城发成家财富中心核心优势</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white bg-opacity-10 p-3 rounded-lg">
+                    <h3 class="font-semibold mb-1">黄金区位</h3>
+                    <p class="text-sm opacity-90">经十路三心交汇，政商双核心</p>
+                </div>
+                <div class="bg-white bg-opacity-10 p-3 rounded-lg">
+                    <h3 class="font-semibold mb-1">智能硬件</h3>
+                    <p class="text-sm opacity-90">国际品牌设备，节能高效</p>
+                </div>
+                <div class="bg-white bg-opacity-10 p-3 rounded-lg">
+                    <h3 class="font-semibold mb-1">全包服务</h3>
+                    <p class="text-sm opacity-90">12元/㎡含企业成长配套</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="text-center text-gray-500 text-sm mt-12">
+        <p>城发成家 · 财富中心</p>
+        <p class="mt-1">最后更新时间为2025-05-08 ，星期四</p>
+        <p class="mt-1">仅供参考</p>
+    </footer>
+
+    <script>
+        // 平滑滚动效果
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // 卡片悬停效果
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-5px)';
+                card.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.1)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = '';
+                card.style.boxShadow = '';
+            });
+        });
+    </script>
+</body>
+</html>
